@@ -1,0 +1,5 @@
+size=int(input())
+li=list(map(int,input().split()))
+max_=max(li)
+min_=min(li)
+print(sum(li)-max_,sum(li)-min_)
