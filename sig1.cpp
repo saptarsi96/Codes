@@ -1,16 +1,19 @@
-#include<bits/stdc++.h>
-#include<unistd.h>
+#include <bits/stdc++.h>
+#include <unistd.h>
 
 using namespace std;
 
-int main(){
+int main()
+{
 
     int a = fork();
     sleep(1);
-    if(a == 0){
+    if (a == 0)
+    {
         cout << "Child" << endl;
     }
-    else{
+    else
+    {
         cout << "Parent" << endl;
     }
     sleep(1);
