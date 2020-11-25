@@ -3,6 +3,8 @@
     "python.linting.enabled": true,
     "python.linting.pycodestyleEnabled": true,
     "files.associations": {
-        "string": "cpp"
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp"
     }
 }
